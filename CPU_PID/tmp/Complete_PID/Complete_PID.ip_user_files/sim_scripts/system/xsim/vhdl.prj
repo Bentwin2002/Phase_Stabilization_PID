@@ -1,0 +1,31 @@
+vhdl xil_defaultlib  \
+"../../../bd/system/ip/system_util_ds_buf_1_0/util_ds_buf.vhd" \
+"../../../bd/system/ip/system_util_ds_buf_1_0/sim/system_util_ds_buf_1_0.vhd" \
+"../../../bd/system/ip/system_util_ds_buf_2_0/sim/system_util_ds_buf_2_0.vhd" \
+"../../../bd/system/ip/system_rst_ps7_0_50M_1/sim/system_rst_ps7_0_50M_1.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_17/sim/system_axi_gpio_0_17.vhd" \
+"../../../bd/system/ip/system_axi_gpio_10_2/sim/system_axi_gpio_10_2.vhd" \
+"../../../bd/system/ip/system_axi_gpio_6_1/sim/system_axi_gpio_6_1.vhd" \
+"../../../bd/system/ip/system_axi_gpio_10_3/sim/system_axi_gpio_10_3.vhd" \
+"../../../bd/system/ip/system_axi_gpio_10_4/sim/system_axi_gpio_10_4.vhd" \
+"../../../bd/system/ip/system_axi_gpio_5_1/sim/system_axi_gpio_5_1.vhd" \
+"../../../bd/system/ip/system_axi_gpio_10_5/sim/system_axi_gpio_10_5.vhd" \
+"../../../bd/system/ip/system_axi_gpio_8_2/sim/system_axi_gpio_8_2.vhd" \
+"../../../bd/system/ip/system_axi_gpio_16_0/sim/system_axi_gpio_16_0.vhd" \
+"../../../bd/system/ip/system_axi_gpio_17_1/sim/system_axi_gpio_17_1.vhd" \
+"../../../bd/system/ip/system_axi_gpio_17_2/sim/system_axi_gpio_17_2.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_11/sim/system_axi_gpio_0_11.vhd" \
+"../../../bd/system/ip/system_axi_gpio_18_1/sim/system_axi_gpio_18_1.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_12/sim/system_axi_gpio_0_12.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_13/sim/system_axi_gpio_0_13.vhd" \
+"../../../bd/system/ip/system_axi_gpio_18_2/sim/system_axi_gpio_18_2.vhd" \
+"../../../bd/system/ip/system_axi_gpio_21_0/sim/system_axi_gpio_21_0.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_14/sim/system_axi_gpio_0_14.vhd" \
+"../../../bd/system/ip/system_axi_gpio_8_3/sim/system_axi_gpio_8_3.vhd" \
+"../../../bd/system/ip/system_axi_gpio_22_0/sim/system_axi_gpio_22_0.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_15/sim/system_axi_gpio_0_15.vhd" \
+"../../../bd/system/ip/system_axi_gpio_0_16/sim/system_axi_gpio_0_16.vhd" \
+"../../../bd/system/ip/system_axi_gpio_11_0/sim/system_axi_gpio_11_0.vhd" \
+"../../../bd/system/ip/system_axi_gpio_23_0/sim/system_axi_gpio_23_0.vhd" \
+
+nosort

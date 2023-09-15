@@ -1,0 +1,88 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.381818",
+   "Default View_TopLeft":"-1139,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x 0 -y 1210 -defaultsOSRD
+preplace port S_AXI5 -pg 1 -lvl 0 -x 0 -y 790 -defaultsOSRD
+preplace port S_AXI6 -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port S_AXI7 -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port S_AXI8 -pg 1 -lvl 0 -x 0 -y 1070 -defaultsOSRD
+preplace port S_AXI4 -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x 0 -y 390 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x 0 -y 810 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_scan_in -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_Ramp_activate -pg 1 -lvl 3 -x 820 -y 260 -defaultsOSRD
+preplace port port-id_Ramp_reset -pg 1 -lvl 3 -x 820 -y 280 -defaultsOSRD
+preplace port port-id_divider_signal -pg 1 -lvl 3 -x 820 -y 340 -defaultsOSRD
+preplace port port-id_Scan_Mode -pg 1 -lvl 3 -x 820 -y 420 -defaultsOSRD
+preplace port port-id_reset_min_max -pg 1 -lvl 3 -x 820 -y 440 -defaultsOSRD
+preplace port port-id_forwards_backwards_out -pg 1 -lvl 3 -x 820 -y 560 -defaultsOSRD
+preplace portBus Ramp_count -pg 1 -lvl 3 -x 820 -y 300 -defaultsOSRD
+preplace portBus Ramp_cutoff -pg 1 -lvl 3 -x 820 -y 320 -defaultsOSRD
+preplace portBus PI_Config -pg 1 -lvl 3 -x 820 -y 380 -defaultsOSRD
+preplace portBus Scan_Overshoot -pg 1 -lvl 3 -x 820 -y 400 -defaultsOSRD
+preplace portBus Scale_Config -pg 1 -lvl 3 -x 820 -y 460 -defaultsOSRD
+preplace portBus lp_RC_a -pg 1 -lvl 3 -x 820 -y 480 -defaultsOSRD
+preplace portBus lp_exp_a -pg 1 -lvl 3 -x 820 -y 500 -defaultsOSRD
+preplace portBus lp_exp_b -pg 1 -lvl 3 -x 820 -y 540 -defaultsOSRD
+preplace portBus lp_RC_b -pg 1 -lvl 3 -x 820 -y 520 -defaultsOSRD
+preplace portBus Select_PID -pg 1 -lvl 3 -x 820 -y 20 -defaultsOSRD
+preplace inst axi_gpio_6 -pg 1 -lvl 1 -x 180 -y 530 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -x 180 -y 230 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 1 -x 180 -y 390 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 1 -x 180 -y 1230 -defaultsOSRD
+preplace inst axi_gpio_5 -pg 1 -lvl 1 -x 180 -y 810 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 180 -y 70 -defaultsOSRD
+preplace inst axi_gpio_7 -pg 1 -lvl 1 -x 180 -y 950 -defaultsOSRD
+preplace inst axi_gpio_8 -pg 1 -lvl 1 -x 180 -y 1090 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 1 -x 180 -y 670 -defaultsOSRD
+preplace inst Hivemind_0 -pg 1 -lvl 2 -x 590 -y 410 -defaultsOSRD
+preplace netloc Hivemind_0_PI_Config 1 2 1 NJ 380
+preplace netloc Hivemind_0_Ramp_activate 1 2 1 NJ 260
+preplace netloc Hivemind_0_Ramp_count 1 2 1 NJ 300
+preplace netloc Hivemind_0_Ramp_cutoff 1 2 1 NJ 320
+preplace netloc Hivemind_0_Ramp_reset 1 2 1 NJ 280
+preplace netloc Hivemind_0_Scale_Config 1 2 1 NJ 460
+preplace netloc Hivemind_0_Scan_Mode 1 2 1 NJ 420
+preplace netloc Hivemind_0_Scan_Overshoot 1 2 1 NJ 400
+preplace netloc Hivemind_0_divider_signal 1 2 1 NJ 340
+preplace netloc Hivemind_0_forwards_backwards_out 1 2 1 NJ 560
+preplace netloc Hivemind_0_lp_RC_a 1 2 1 NJ 480
+preplace netloc Hivemind_0_lp_RC_b 1 2 1 NJ 520
+preplace netloc Hivemind_0_lp_exp_a 1 2 1 NJ 500
+preplace netloc Hivemind_0_lp_exp_b 1 2 1 NJ 540
+preplace netloc Hivemind_0_reset_min_max 1 2 1 NJ 440
+preplace netloc Latch_0_on_off 1 0 2 NJ 150 330J
+preplace netloc axi_gpio_0_gpio_io_o 1 1 1 370 80n
+preplace netloc axi_gpio_1_gpio_io_o 1 1 1 320 240n
+preplace netloc axi_gpio_2_gpio_io_o 1 1 1 330 390n
+preplace netloc axi_gpio_3_gpio_io_o 1 1 1 340 410n
+preplace netloc axi_gpio_4_gpio_io_o 1 1 1 360 510n
+preplace netloc axi_gpio_5_gpio_io_o 1 1 1 330 430n
+preplace netloc axi_gpio_6_gpio_io_o 1 1 1 320 450n
+preplace netloc axi_gpio_7_gpio_io_o 1 1 1 350 470n
+preplace netloc axi_gpio_8_gpio_io_o 1 1 1 370 490n
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 2 NJ 310 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 1 30 70n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 1 20 90n
+preplace netloc S_AXI7_1 1 0 1 NJ 930
+preplace netloc S_AXI8_1 1 0 1 NJ 1070
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 1 NJ 50
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 1 NJ 210
+preplace netloc ps7_0_axi_periph_M02_AXI 1 0 1 NJ 370
+preplace netloc ps7_0_axi_periph_M03_AXI 1 0 1 NJ 1210
+preplace netloc ps7_0_axi_periph_M04_AXI 1 0 1 NJ 650
+preplace netloc ps7_0_axi_periph_M05_AXI 1 0 1 NJ 790
+preplace netloc ps7_0_axi_periph_M06_AXI 1 0 1 NJ 510
+levelinfo -pg 1 0 180 590 820
+pagesize -pg 1 -db -bbox -sgen -140 -10 1030 1310
+"
+}
+

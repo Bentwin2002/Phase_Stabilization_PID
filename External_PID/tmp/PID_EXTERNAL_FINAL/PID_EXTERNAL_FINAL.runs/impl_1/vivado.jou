@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Sep 14 16:44:15 2023
+# Process ID: 24968
+# Current directory: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.runs/impl_1/system_wrapper.vdi
+# Journal file: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.runs/impl_1\vivado.jou
+# Running On: MBQD-WS-11, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 17037 MB
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
