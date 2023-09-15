@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Sep 15 10:58:26 2023
+# Process ID: 8088
+# Current directory: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_CPU_FINAL/PID_CPU_FINAL.runs/system_signal_split_2_1_0_synth_1
+# Command line: vivado.exe -log system_signal_split_2_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_signal_split_2_1_0.tcl
+# Log file: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_CPU_FINAL/PID_CPU_FINAL.runs/system_signal_split_2_1_0_synth_1/system_signal_split_2_1_0.vds
+# Journal file: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_CPU_FINAL/PID_CPU_FINAL.runs/system_signal_split_2_1_0_synth_1\vivado.jou
+# Running On: MBQD-WS-11, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 17037 MB
+#-----------------------------------------------------------
+source system_signal_split_2_1_0.tcl -notrace

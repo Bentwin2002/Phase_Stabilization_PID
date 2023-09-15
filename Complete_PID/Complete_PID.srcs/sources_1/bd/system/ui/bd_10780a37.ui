@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-215,-118",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 4 -x 880 -y 180 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -10 -y 110 -defaultsOSRD
+preplace port port-id_on_off -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace portBus inverse_RC_a -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace portBus inverse_RC_b -pg 1 -lvl 0 -x -10 -y 150 -defaultsOSRD
+preplace portBus exp_a -pg 1 -lvl 0 -x -10 -y 170 -defaultsOSRD
+preplace portBus exp_b -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace portBus conf -pg 1 -lvl 0 -x -10 -y 20 -defaultsOSRD
+preplace inst low_pass_0 -pg 1 -lvl 1 -x 170 -y 140 -defaultsOSRD
+preplace inst scale_0 -pg 1 -lvl 2 -x 460 -y 160 -defaultsOSRD
+preplace inst divider_0 -pg 1 -lvl 3 -x 730 -y 180 -defaultsOSRD
+preplace netloc Controller_Scale_Config 1 0 2 20J 250 330J
+preplace netloc Controller_lp_RC_a 1 0 1 NJ 130
+preplace netloc Controller_lp_RC_b 1 0 1 NJ 150
+preplace netloc Controller_lp_exp_a 1 0 1 NJ 170
+preplace netloc Controller_lp_exp_b 1 0 1 NJ 190
+preplace netloc Hivemind_0_divider_signal 1 0 3 10J 260 NJ 260 590J
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 3 10 30 320 240 600J
+preplace netloc axis_red_pitaya_adc_0_M_AXIS 1 0 1 NJ 90
+preplace netloc divider_0_M_AXIS 1 3 1 N 180
+preplace netloc low_pass_0_M_AXIS 1 1 1 N 140
+preplace netloc scale_0_M_AXIS 1 2 1 N 160
+levelinfo -pg 1 -10 170 460 730 880
+pagesize -pg 1 -db -bbox -sgen -190 0 990 270
+"
+}
+
