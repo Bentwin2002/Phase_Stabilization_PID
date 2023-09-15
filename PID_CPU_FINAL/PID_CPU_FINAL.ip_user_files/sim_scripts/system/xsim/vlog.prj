@@ -1,0 +1,43 @@
+verilog xil_defaultlib --include "E:/FPGA_folder/Xilinix/Vivado/2022.1/data/xilinx_vip/include" --include "../../../../PID_CPU_FINAL.gen/sources_1/bd/system/ipshared/4e49" --include "../../../../PID_CPU_FINAL.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../PID_CPU_FINAL.gen/sources_1/bd/system/ipshared/5765/hdl" \
+"../../../bd/system/ipshared/8b85/src/axis_red_pitaya_dac.v" \
+"../../../bd/system/ip/system_axis_red_pitaya_dac_0_0/sim/system_axis_red_pitaya_dac_0_0.v" \
+"../../../bd/system/ipshared/d32c/src/axis_red_pitaya_adc.v" \
+"../../../bd/system/ip/system_axis_red_pitaya_adc_0_0/sim/system_axis_red_pitaya_adc_0_0.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.v" \
+"../../../bd/system/ip/system_processing_system7_0_1/sim/system_processing_system7_0_1.v" \
+"../../../bd/system/ip/system_low_pass_0_0/sim/system_low_pass_0_0.v" \
+"../../../bd/system/ip/system_Scan_0_0/sim/system_Scan_0_0.v" \
+"../../../bd/system/ip/system_util_vector_logic_0_0/sim/system_util_vector_logic_0_0.v" \
+"../../../bd/system/ip/system_Voltage_Holder_0_0/sim/system_Voltage_Holder_0_0.v" \
+"../../../bd/system/ip/system_signal_split_0_0/sim/system_signal_split_0_0.v" \
+"../../../bd/system/ip/system_Voltage_Holder_1_0/sim/system_Voltage_Holder_1_0.v" \
+"../../../bd/system/ip/system_util_vector_logic_1_0/sim/system_util_vector_logic_1_0.v" \
+"../../../bd/system/ip/system_divider_0_0/sim/system_divider_0_0.v" \
+"../../../bd/system/ip/system_signal_split_2_1_0/sim/system_signal_split_2_1_0.v" \
+"../../../bd/system/ip/system_signal_split_1_1/sim/system_signal_split_1_1.v" \
+"../../../bd/system/ip/system_signal_split_2_1_1/sim/system_signal_split_2_1_1.v" \
+"../../../bd/system/ip/system_signal_split_2_2_1/sim/system_signal_split_2_2_1.v" \
+"../../../bd/system/ip/system_Data_b_Pack_0_0/sim/system_Data_b_Pack_0_0.v" \
+"../../../bd/system/ip/system_Add_0_0/sim/system_Add_0_0.v" \
+"../../../bd/system/ip/system_signal_split_2_1_2/sim/system_signal_split_2_1_2.v" \
+"../../../bd/system/ip/system_PID_Inputs_Pack_0_0/sim/system_PID_Inputs_Pack_0_0.v" \
+"../../../bd/system/ip/system_LED_Contoller_0_0/sim/system_LED_Contoller_0_0.v" \
+"../../../bd/system/ip/system_Selector_0_0/sim/system_Selector_0_0.v" \
+"../../../bd/system/ip/system_Ramp_0_0/sim/system_Ramp_0_0.v" \
+"../../../bd/system/ip/system_PI_ctrl_0_0/sim/system_PI_ctrl_0_0.v" \
+"../../../bd/system/ip/system_scale_0_0/sim/system_scale_0_0.v" \
+"../../../bd/system/ip/system_B_Select_0_0/sim/system_B_Select_0_0.v" \
+"../../../bd/system/ip/system_Add_0_1/sim/system_Add_0_1.v" \
+"../../../bd/system/ip/system_Square_Wave_0_0/sim/system_Square_Wave_0_0.v" \
+"../../../bd/system/ip/system_signal_split_2_4_0/sim/system_signal_split_2_4_0.v" \
+"../../../bd/system/ip/system_xbar_6/sim/system_xbar_6.v" \
+"../../../bd/system/ip/system_tier2_xbar_0_0/sim/system_tier2_xbar_0_0.v" \
+"../../../bd/system/ip/system_tier2_xbar_1_0/sim/system_tier2_xbar_1_0.v" \
+"../../../bd/system/ip/system_tier2_xbar_2_0/sim/system_tier2_xbar_2_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
