@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-| Date         : Thu Sep 14 16:57:39 2023
+| Date         : Fri Sep 15 17:39:31 2023
 | Host         : MBQD-WS-11 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file system_wrapper_utilization_placed.rpt -pb system_wrapper_utilization_placed.pb
 | Design       : system_wrapper
@@ -32,13 +32,13 @@ Table of Contents
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs                 | 4764 |     0 |          0 |     17600 | 27.07 |
-|   LUT as Logic             | 4702 |     0 |          0 |     17600 | 26.72 |
+| Slice LUTs                 | 4848 |     0 |          0 |     17600 | 27.55 |
+|   LUT as Logic             | 4786 |     0 |          0 |     17600 | 27.19 |
 |   LUT as Memory            |   62 |     0 |          0 |      6000 |  1.03 |
 |     LUT as Distributed RAM |    0 |     0 |            |           |       |
 |     LUT as Shift Register  |   62 |     0 |            |           |       |
-| Slice Registers            | 3720 |     0 |          0 |     35200 | 10.57 |
-|   Register as Flip Flop    | 3720 |     0 |          0 |     35200 | 10.57 |
+| Slice Registers            | 3924 |     0 |          0 |     35200 | 11.15 |
+|   Register as Flip Flop    | 3924 |     0 |          0 |     35200 | 11.15 |
 |   Register as Latch        |    0 |     0 |          0 |     35200 |  0.00 |
 | F7 Muxes                   |    0 |     0 |          0 |      8800 |  0.00 |
 | F8 Muxes                   |    0 |     0 |          0 |      4400 |  0.00 |
@@ -59,8 +59,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 166   |          Yes |         Set |            - |
-| 3582  |          Yes |       Reset |            - |
+| 167   |          Yes |         Set |            - |
+| 3785  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -71,24 +71,24 @@ Table of Contents
 |                  Site Type                 | Used | Fixed | Prohibited | Available | Util% |
 +--------------------------------------------+------+-------+------------+-----------+-------+
 | Slice                                      | 1677 |     0 |          0 |      4400 | 38.11 |
-|   SLICEL                                   | 1104 |     0 |            |           |       |
-|   SLICEM                                   |  573 |     0 |            |           |       |
-| LUT as Logic                               | 4702 |     0 |          0 |     17600 | 26.72 |
+|   SLICEL                                   | 1093 |     0 |            |           |       |
+|   SLICEM                                   |  584 |     0 |            |           |       |
+| LUT as Logic                               | 4786 |     0 |          0 |     17600 | 27.19 |
 |   using O5 output only                     |   32 |       |            |           |       |
-|   using O6 output only                     | 3848 |       |            |           |       |
-|   using O5 and O6                          |  822 |       |            |           |       |
+|   using O6 output only                     | 3891 |       |            |           |       |
+|   using O5 and O6                          |  863 |       |            |           |       |
 | LUT as Memory                              |   62 |     0 |          0 |      6000 |  1.03 |
 |   LUT as Distributed RAM                   |    0 |     0 |            |           |       |
 |   LUT as Shift Register                    |   62 |     0 |            |           |       |
 |     using O5 output only                   |    0 |       |            |           |       |
 |     using O6 output only                   |   58 |       |            |           |       |
 |     using O5 and O6                        |    4 |       |            |           |       |
-| Slice Registers                            | 3720 |     0 |          0 |     35200 | 10.57 |
-|   Register driven from within the Slice    | 2049 |       |            |           |       |
-|   Register driven from outside the Slice   | 1671 |       |            |           |       |
-|     LUT in front of the register is unused |  945 |       |            |           |       |
-|     LUT in front of the register is used   |  726 |       |            |           |       |
-| Unique Control Sets                        |  197 |       |          0 |      4400 |  4.48 |
+| Slice Registers                            | 3924 |     0 |          0 |     35200 | 11.15 |
+|   Register driven from within the Slice    | 2134 |       |            |           |       |
+|   Register driven from outside the Slice   | 1790 |       |            |           |       |
+|     LUT in front of the register is unused | 1037 |       |            |           |       |
+|     LUT in front of the register is used   |  753 |       |            |           |       |
+| Unique Control Sets                        |  206 |       |          0 |      4400 |  4.68 |
 +--------------------------------------------+------+-------+------------+-----------+-------+
 * * Note: Available Control Sets calculated as Slice * 1, Review the Control Sets Report for more information regarding control sets.
 
@@ -184,15 +184,15 @@ Table of Contents
 +-------------+------+----------------------+
 |   Ref Name  | Used |  Functional Category |
 +-------------+------+----------------------+
-| FDRE        | 3582 |         Flop & Latch |
-| LUT6        | 1700 |                  LUT |
-| LUT2        | 1044 |                  LUT |
-| LUT5        |  939 |                  LUT |
-| LUT3        |  800 |                  LUT |
-| LUT4        |  700 |                  LUT |
-| CARRY4      |  396 |           CarryLogic |
-| LUT1        |  341 |                  LUT |
-| FDSE        |  166 |         Flop & Latch |
+| FDRE        | 3785 |         Flop & Latch |
+| LUT6        | 1714 |                  LUT |
+| LUT2        | 1051 |                  LUT |
+| LUT5        |  980 |                  LUT |
+| LUT3        |  840 |                  LUT |
+| LUT4        |  734 |                  LUT |
+| CARRY4      |  408 |           CarryLogic |
+| LUT1        |  330 |                  LUT |
+| FDSE        |  167 |         Flop & Latch |
 | BIBUF       |  130 |                   IO |
 | SRLC32E     |   47 |   Distributed Memory |
 | IBUF        |   30 |                   IO |
@@ -230,9 +230,9 @@ Table of Contents
 | system_util_vector_logic_0_0    |    1 |
 | system_util_ds_buf_2_0          |    1 |
 | system_util_ds_buf_1_0          |    1 |
-| system_tier2_xbar_2_1           |    1 |
-| system_tier2_xbar_1_1           |    1 |
-| system_tier2_xbar_0_1           |    1 |
+| system_tier2_xbar_2_0           |    1 |
+| system_tier2_xbar_1_0           |    1 |
+| system_tier2_xbar_0_0           |    1 |
 | system_signal_split_2_4_0       |    1 |
 | system_signal_split_2_2_1       |    1 |
 | system_signal_split_2_1_2       |    1 |
@@ -254,6 +254,7 @@ Table of Contents
 | system_axi_gpio_4_2             |    1 |
 | system_axi_gpio_4_1             |    1 |
 | system_axi_gpio_4_0             |    1 |
+| system_axi_gpio_22_0            |    1 |
 | system_axi_gpio_20_1            |    1 |
 | system_axi_gpio_20_0            |    1 |
 | system_axi_gpio_1_1             |    1 |
@@ -270,7 +271,7 @@ Table of Contents
 | system_axi_gpio_10_10           |    1 |
 | system_axi_gpio_0_19            |    1 |
 | system_axi_gpio_0_18            |    1 |
-| system_auto_pc_1                |    1 |
+| system_auto_pc_0                |    1 |
 | system_Voltage_Holder_1_0       |    1 |
 | system_Voltage_Holder_0_0       |    1 |
 | system_Square_Wave_0_0          |    1 |

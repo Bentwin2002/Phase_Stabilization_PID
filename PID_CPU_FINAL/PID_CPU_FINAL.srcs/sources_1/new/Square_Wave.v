@@ -29,29 +29,32 @@ parameter integer DAC_DATA_WIDTH = 14,
     input clk,
     
     input on_off,
-
+    input [31:0] timer,
     output         M_AXIS_tvalid,
     output  [AXIS_TDATA_WIDTH-1:0] M_AXIS_tdata
 
     );
     
-    reg tick = 0;
-    reg [13:0] out;
+    reg [32:0] tick = 0;
+    reg signed [13:0] out;
+    reg signed [1:0] magnitude_sign = 1;
+
+    
+    
+ 
 always @(posedge clk) begin
 
 if (on_off == 1) begin
 
-tick <= ~tick;
-if (tick==0) begin 
+out<= magnitude_sign*magnitude;
+tick <= tick + 1 ;
+if (tick > timer) begin 
 
-out <= -magnitude;
+magnitude_sign <= -magnitude_sign;
+tick <=0;
+
 end
 
-else begin
-
-out <= magnitude;
-
-end 
 
 end 
 
@@ -60,7 +63,7 @@ out <= 0;
 end 
  
 end
-assign M_AXIS_tdata = {{3{out[13]}},out,{3{out[13]}},out};
+assign M_AXIS_tdata = {{2{out[13]}},out,{2{out[13]}},out};
 
 assign M_AXIS_tvalid = 1'b1;
 endmodule

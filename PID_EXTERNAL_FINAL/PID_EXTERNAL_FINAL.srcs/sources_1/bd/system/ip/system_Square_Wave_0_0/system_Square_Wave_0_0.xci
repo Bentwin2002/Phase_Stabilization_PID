@@ -86,6 +86,7 @@
                   &quot;magnitude&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;13&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;clk&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
                   &quot;on_off&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;timer&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;31&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;M_AXIS_tvalid&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
                   &quot;M_AXIS_tdata&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;31&quot;, &quot;size_right&quot;: &quot;0&quot; } ]
                 },

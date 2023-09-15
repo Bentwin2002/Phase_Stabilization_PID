@@ -98,9 +98,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_B_Se
 # IP: bd/system/ip/system_Add_0_1/system_Add_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_Add_0_1 || ORIG_REF_NAME==system_Add_0_1} -quiet] -quiet
 
-# IP: bd/system/ip/system_Square_Wave_0_0/system_Square_Wave_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_Square_Wave_0_0 || ORIG_REF_NAME==system_Square_Wave_0_0} -quiet] -quiet
-
 # IP: bd/system/ip/system_signal_split_2_4_0/system_signal_split_2_4_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_signal_split_2_4_0 || ORIG_REF_NAME==system_signal_split_2_4_0} -quiet] -quiet
 
@@ -179,16 +176,22 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_axi_
 # IP: bd/system/ip/system_axi_gpio_20_1/system_axi_gpio_20_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_axi_gpio_20_1 || ORIG_REF_NAME==system_axi_gpio_20_1} -quiet] -quiet
 
-# IP: bd/system/ip/system_tier2_xbar_0_1/system_tier2_xbar_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_0_1 || ORIG_REF_NAME==system_tier2_xbar_0_1} -quiet] -quiet
+# IP: bd/system/ip/system_Square_Wave_0_0/system_Square_Wave_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_Square_Wave_0_0 || ORIG_REF_NAME==system_Square_Wave_0_0} -quiet] -quiet
 
-# IP: bd/system/ip/system_tier2_xbar_1_1/system_tier2_xbar_1_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_1_1 || ORIG_REF_NAME==system_tier2_xbar_1_1} -quiet] -quiet
+# IP: bd/system/ip/system_axi_gpio_22_0/system_axi_gpio_22_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_axi_gpio_22_0 || ORIG_REF_NAME==system_axi_gpio_22_0} -quiet] -quiet
 
-# IP: bd/system/ip/system_tier2_xbar_2_1/system_tier2_xbar_2_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_2_1 || ORIG_REF_NAME==system_tier2_xbar_2_1} -quiet] -quiet
+# IP: bd/system/ip/system_tier2_xbar_0_0/system_tier2_xbar_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_0_0 || ORIG_REF_NAME==system_tier2_xbar_0_0} -quiet] -quiet
 
-# IP: bd/system/ip/system_auto_pc_1/system_auto_pc_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_auto_pc_1 || ORIG_REF_NAME==system_auto_pc_1} -quiet] -quiet
+# IP: bd/system/ip/system_tier2_xbar_1_0/system_tier2_xbar_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_1_0 || ORIG_REF_NAME==system_tier2_xbar_1_0} -quiet] -quiet
 
-# XDC: C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/system_ooc.xdc
+# IP: bd/system/ip/system_tier2_xbar_2_0/system_tier2_xbar_2_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_tier2_xbar_2_0 || ORIG_REF_NAME==system_tier2_xbar_2_0} -quiet] -quiet
+
+# IP: bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_auto_pc_0 || ORIG_REF_NAME==system_auto_pc_0} -quiet] -quiet
+
+# XDC: c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/system_ooc.xdc

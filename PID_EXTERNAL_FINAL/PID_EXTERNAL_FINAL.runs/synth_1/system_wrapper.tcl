@@ -71,7 +71,6 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z010clg400-1
@@ -172,11 +171,14 @@ set_property used_in_implementation false [get_files -all c:/Users/BenMillward/D
 set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_20_1/system_axi_gpio_20_1_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_20_1/system_axi_gpio_20_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_20_1/system_axi_gpio_20_1.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_0_1/system_tier2_xbar_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_1_1/system_tier2_xbar_1_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_2_1/system_tier2_xbar_2_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/system_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_22_0/system_axi_gpio_22_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_22_0/system_axi_gpio_22_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_axi_gpio_22_0/system_axi_gpio_22_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_0_0/system_tier2_xbar_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_1_0/system_tier2_xbar_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_tier2_xbar_2_0/system_tier2_xbar_2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/BenMillward/Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.gen/sources_1/bd/system/system_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

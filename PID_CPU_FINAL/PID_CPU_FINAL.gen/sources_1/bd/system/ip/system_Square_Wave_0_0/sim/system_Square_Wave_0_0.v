@@ -58,6 +58,7 @@ module system_Square_Wave_0_0 (
   magnitude,
   clk,
   on_off,
+  timer,
   M_AXIS_tvalid,
   M_AXIS_tdata
 );
@@ -67,6 +68,7 @@ input wire [13 : 0] magnitude;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
 input wire clk;
 input wire on_off;
+input wire [31 : 0] timer;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 M_AXIS TVALID" *)
 output wire M_AXIS_tvalid;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME M_AXIS, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 0, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN system_axis_red_pitaya_adc_0_0_adc_clk, LAYERED_METADATA undef, INSERT_VIP 0" *)
@@ -80,6 +82,7 @@ output wire [31 : 0] M_AXIS_tdata;
     .magnitude(magnitude),
     .clk(clk),
     .on_off(on_off),
+    .timer(timer),
     .M_AXIS_tvalid(M_AXIS_tvalid),
     .M_AXIS_tdata(M_AXIS_tdata)
   );
