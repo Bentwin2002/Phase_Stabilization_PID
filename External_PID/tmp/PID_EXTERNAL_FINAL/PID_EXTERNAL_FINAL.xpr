@@ -223,19 +223,19 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/Square_Wave.v">
+      <File Path="$PSRCDIR/sources_1/new/External_Inputs.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Complete_setup/tmp/PID_Fresh/PID_Fresh.srcs/sources_1/new/Square_Wave.v"/>
-          <Attr Name="ImportTime" Val="1694689588"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.srcs/sources_1/new/External_Inputs.v"/>
+          <Attr Name="ImportTime" Val="1694704489"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/External_Inputs.v">
+      <File Path="$PSRCDIR/sources_1/new/Square_Wave.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Complete_setup/tmp/PID_EXTERNAL_FINAL/PID_EXTERNAL_FINAL.srcs/sources_1/new/External_Inputs.v"/>
-          <Attr Name="ImportTime" Val="1694704489"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Complete_setup/tmp/PID_Fresh/PID_Fresh.srcs/sources_1/new/Square_Wave.v"/>
+          <Attr Name="ImportTime" Val="1694689588"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
