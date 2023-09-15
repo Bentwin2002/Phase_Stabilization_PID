@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Aug  5 10:51:58 2022
+# Process ID: 20924
+# Current directory: C:/Users/Marnix/testtest/redpitaya_guide/tmp/delineariser/delineariser.runs/system_axis_bram_writer_0_2_synth_1
+# Command line: vivado.exe -log system_axis_bram_writer_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axis_bram_writer_0_2.tcl
+# Log file: C:/Users/Marnix/testtest/redpitaya_guide/tmp/delineariser/delineariser.runs/system_axis_bram_writer_0_2_synth_1/system_axis_bram_writer_0_2.vds
+# Journal file: C:/Users/Marnix/testtest/redpitaya_guide/tmp/delineariser/delineariser.runs/system_axis_bram_writer_0_2_synth_1\vivado.jou
+# Running On: DESKTOP-L36KOE9, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 6, Host memory: 8376 MB
+#-----------------------------------------------------------
+source system_axis_bram_writer_0_2.tcl -notrace

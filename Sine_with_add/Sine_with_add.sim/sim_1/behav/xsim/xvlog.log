@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Marnix/testtest/redpitaya_guide/projects/delineariser/delineariser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delineariser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Marnix/testtest/redpitaya_guide/projects/delineariser/delineariser_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delineariser_tb

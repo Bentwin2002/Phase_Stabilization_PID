@@ -1,0 +1,353 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Sep 11 14:28:42 2023
+# Process ID: 8056
+# Current directory: C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.runs/system_delineariser_1_0_synth_1
+# Command line: vivado.exe -log system_delineariser_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_delineariser_1_0.tcl
+# Log file: C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.runs/system_delineariser_1_0_synth_1/system_delineariser_1_0.vds
+# Journal file: C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.runs/system_delineariser_1_0_synth_1\vivado.jou
+# Running On: MBQD-WS-11, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 17037 MB
+#-----------------------------------------------------------
+source system_delineariser_1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/cores'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/FPGA_folder/Xilinix/Vivado/2022.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.cache/ip 
+Command: synth_design -top system_delineariser_1_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 996
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [E:/FPGA_folder/Xilinix/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_delineariser_1_0' [c:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.gen/sources_1/bd/system/ip/system_delineariser_1_0/synth/system_delineariser_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'delineariser' [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:3]
+WARNING: [Synth 8-6104] Input port 'BRAM_AXI_rvalid' has an internal driver [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'delineariser' (0#1) [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'system_delineariser_1_0' (0#1) [c:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.gen/sources_1/bd/system/ip/system_delineariser_1_0/synth/system_delineariser_1_0.v:53]
+WARNING: [Synth 8-3848] Net BRAM_AXI_awaddr in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:17]
+WARNING: [Synth 8-3848] Net BRAM_AXI_awvalid in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:18]
+WARNING: [Synth 8-3848] Net BRAM_AXI_wdata in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:20]
+WARNING: [Synth 8-3848] Net BRAM_AXI_wvalid in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:21]
+WARNING: [Synth 8-3848] Net BRAM_AXI_bready in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:25]
+WARNING: [Synth 8-3848] Net BRAM_AXI_rready in module/entity delineariser does not have driver. [C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/projects/delineariser/delineariser.v:33]
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[15] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[14] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[13] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[12] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[11] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[10] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[9] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[8] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[7] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[6] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[5] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[4] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[3] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[2] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[1] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[0] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awvalid in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[15] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[14] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[13] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[12] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[11] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[10] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[9] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[8] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[7] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[6] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[5] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[4] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[3] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[2] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[1] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[0] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wvalid in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_bready in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_rready in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[31] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[30] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[29] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[28] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[27] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[26] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[25] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[24] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[23] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[22] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[21] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[20] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[19] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[18] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[17] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tdata[16] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_tvalid in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awready in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wready in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_bresp[1] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_bresp[0] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_bvalid in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_arready in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_rresp[1] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_rresp[0] in module delineariser is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_rvalid in module delineariser is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1282.434 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1282.434 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   14 Bit       Adders := 1     
++---XORs : 
+	   2 Input     14 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP inst/mult_out, operation Mode is: A*B.
+DSP Report: operator inst/mult_out is absorbed into DSP inst/mult_out.
+INFO: [Synth 8-3917] design system_delineariser_1_0 has port M_AXIS_tvalid driven by constant 1
+INFO: [Synth 8-3917] design system_delineariser_1_0 has port BRAM_AXI_araddr[15] driven by constant 0
+INFO: [Synth 8-3917] design system_delineariser_1_0 has port BRAM_AXI_araddr[0] driven by constant 0
+INFO: [Synth 8-3917] design system_delineariser_1_0 has port BRAM_AXI_arvalid driven by constant 1
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[15] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[14] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[13] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[12] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[11] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[10] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[9] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[8] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[7] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[6] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[5] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[4] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[3] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[2] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[1] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awaddr[0] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_awvalid in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[15] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[14] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[13] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[12] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[11] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[10] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[9] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[8] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[7] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[6] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[5] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[4] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[3] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[2] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[1] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wdata[0] in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_wvalid in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_bready in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_AXI_rready in module system_delineariser_1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module system_delineariser_1_0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1282.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|delineariser | A*B         | 16     | 14     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1288.719 ; gain = 6.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1288.719 ; gain = 6.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1307.781 ; gain = 25.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|delineariser | A*B         | 30     | 18     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |     4|
+|2     |DSP48E1 |     1|
+|3     |LUT1    |     1|
+|4     |LUT2    |    12|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1314.539 ; gain = 32.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 64 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 1314.539 ; gain = 32.105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1314.539 ; gain = 32.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1326.602 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1334.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 18229fce
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 1334.211 ; gain = 51.777
+INFO: [Common 17-1381] The checkpoint 'C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.runs/system_delineariser_1_0_synth_1/system_delineariser_1_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_delineariser_1_0, cache-ID = 132c97e2c6f0b34c
+INFO: [Common 17-1381] The checkpoint 'C:/Users/BenMillward/Desktop/red-pitaya-pid-controller-main/red-pitaya-pid-controller-main/tmp/delineariser/delineariser.runs/system_delineariser_1_0_synth_1/system_delineariser_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_delineariser_1_0_utilization_synth.rpt -pb system_delineariser_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 11 14:29:41 2023...
